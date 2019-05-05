@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "com.hui.browser.loginPage",
+      "type": "java.lang.String",
+      "description": "Description for com.hui.browser.loginPage."
+  }
+] }

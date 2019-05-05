@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="immoc-security" target="1.8" />
+      <module name="immoc-security-app" target="1.8" />
+      <module name="immoc-security-browser" target="1.8" />
+      <module name="immoc-security-core" target="1.8" />
+      <module name="immoc-security-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

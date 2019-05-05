@@ -1,0 +1,41 @@
+# 数据源配置
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
+      username: root
+      password: ROOT
+
+  #security用户名和密码
+  security:
+    user:
+      name: admin
+      password: admin
+  session:
+    store-type: none
+
+
+
+
+com:
+  hui:
+    browser:
+      loginPage: /securityLoginIn.html
+      loginReturnType: JSONS
+    validateCode:
+      imageCodeValidate:
+        codeCount: 2
+        urls: /user,/hello
+    social:
+      qq:
+        app-id: 1108210094
+        app-secret: lLAARamp9eSqrOHf
+      weixin:
+        app-id: wxfd6965ab1fc6adb2
+        app-secret: 66bb4566de776ac699ec1dbed0cc3dd1
+
+
+
+
+
